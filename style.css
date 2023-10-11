@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+p {
+  color: #1f1f1f;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.container {
+  width: 800px;
+  display: grid;
+  grid-template-columns: 700px;
+  row-gap: 20px;
+  align-content: end;
+  justify-content: center;
+  border: 5px solid #000;
+  margin: auto;
+  padding: 20px;
+}
+.card {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 5px 5px 10px 5px #e0e0e0;
+}
+
+.card:hover {
+  background-color: #e0e0e0;
+  box-shadow: none;
+}
+
+li {
+  margin-left: 30px;
+}
+
+.my-details {
+  display: flex;
+  justify-items: center;
+  margin-top: 12px;
+}
+
+.information-list {
+  display: grid;
+  grid-template-columns: 214px 400px;
+  align-content: space-around;
+  list-style: none;
+  font-size: 14px;
+  padding: 5px;
+}
